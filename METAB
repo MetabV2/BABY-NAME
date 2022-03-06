@@ -1,7 +1,7 @@
 _G.Bin = true
 while _G.Bin do
     wait()
-game:GetService("ReplicatedStorage").RemoteEvents.R13PNameE16vent:FireServer("RolePlayFollow","Moderator")
+game:GetService("ReplicatedStorage").RemoteEvents.R16PNameE16vent:FireServer("RolePlayFollow","Moderator")
 wait()
 game:GetService("ReplicatedStorage").RemoteEvents.R16PNameE16vent:FireServer("RolePlayFollow","Administrator")
 wait()
